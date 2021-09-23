@@ -1,0 +1,63 @@
+name: smart_app
+description: A new Flutter project.
+
+# The following line prevents the package from being accidentally published to
+# pub.dev using `flutter pub publish`. This is preferred for private packages.
+publish_to: 'none' # Remove this line if you wish to publish to pub.dev
+
+version: 1.0.0+1
+
+environment:
+  sdk: ">=2.12.0 <3.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+  firebase_core: ^1.6.0
+  cloud_firestore: ^2.5.3
+  firebase_analytics: ^8.3.2
+  firebase_auth: ^3.1.1
+  google_sign_in: ^5.1.0
+  google_fonts: ^2.1.0
+  font_awesome_flutter: ^9.1.0
+  fl_chart: ^0.40.0
+  cupertino_icons: ^1.0.2
+  provider: ^5.0.0
+  persistent_bottom_nav_bar: ^4.0.2
+  flutter_screenutil: ^5.0.0+2
+  carousel_slider: ^4.0.0
+  flutter_svg: ^0.22.0
+  page_transition: ^2.0.2
+  flutter_login: ^2.2.1
+  expansion_tile_card: ^2.0.0
+
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+  flutter_lints: ^1.0.0
+
+flutter:
+
+  uses-material-design: true
+
+  assets:
+    - assets/
+    - assets/images/
+    - assets/icons/
+    - assets/svg/
+    - assets/memoji/
+  fonts:
+    - family: Muli
+      fonts:
+        - asset: assets/fonts/Muli-Regular.ttf
+        - asset: assets/fonts/Muli-SemiBold.ttf
+          weight: 600
+    - family: TTNorms
+      fonts:
+        - asset: assets/fonts/TTNorms-Regular.otf
+        - asset: assets/fonts/TTNorms-Medium.otf
+          weight: 500
+

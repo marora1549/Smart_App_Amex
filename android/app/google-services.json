@@ -1,0 +1,47 @@
+{
+  "project_info": {
+    "project_number": "304844253403",
+    "project_id": "hack-the-gap-21-smart-app",
+    "storage_bucket": "hack-the-gap-21-smart-app.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:304844253403:android:b3ee147ccdf5415c9884fe",
+        "android_client_info": {
+          "package_name": "io.growthhack.smart"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "304844253403-n2u5aup3uun1manoshkgu3310m6v4811.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "io.growthhack.smart",
+            "certificate_hash": "88f0dfa399f8eab20f16553abcb2a113cab987d9"
+          }
+        },
+        {
+          "client_id": "304844253403-ehqtg37va1geh467sm81m8295uo7fec7.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBwYqBCnXjLRFXOhPPJNxWxF4l_D1DNmgA"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "304844253403-ehqtg37va1geh467sm81m8295uo7fec7.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
